@@ -1,0 +1,14 @@
+.hero {
+    height: 100vh;
+    background-color: #f8f9fa; /* warna abu-abu soft bootstrap */
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #212529;
+}
+
+.hero p {
+    color: #6c757d;
+}
