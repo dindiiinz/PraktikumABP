@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Efek Hide Show</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+
+<h2 id="teks">Klik tombol "Hide" untuk menyembunyikan teks, dan klik "Show" untuk menampilkannya kembali.</h2>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+<script>
+$(document).ready(function(){
+
+    $("#hide").click(function(){
+        $("#teks").hide();
+    });
+
+    $("#show").click(function(){
+        $("#teks").show();
+    });
+
+});
+</script>
+
+</body>
+</html>
